@@ -39,6 +39,7 @@ main {
 }
 
 #quoteButton {
+
     height: 100px;
     width: 250px;
     font-size: 25px;
@@ -54,4 +55,39 @@ main {
     &:active {
         background-color: #FF9588;
     }
+}
+
+#quoteDisplay {
+    padding: 5%;
+    font-size: 20px;
+    height: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 450px) {
+    .backgr {
+        width: 100%;
+        height: 350px;
+    }
+
+    .container {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    main {
+        width: 90%;
+        height: 90%;
+        left: 5%;
+
+        img {
+            height: 100px;
+        }
+    }
+
+    #quoteDisplay {}
 }
